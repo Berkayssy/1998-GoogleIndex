@@ -1,5 +1,82 @@
 img {
     display: block;
+    margin: auto;   
+}
+
+#small {
+    font-size: small;
+}
+
+span {
+    font-size: small;
+}
+
+.p-fs {
+    font-size: medium;
+}
+
+.sb-border {
+    text-align: center;
+    margin: 0 auto;
+    width: 1210px;
+    height: 62px;
+
+}
+
+.container {
     margin: auto;
+    width: 1210px;
+    height: 140px;
+}
+
+.content-1 {
+    background-color: rgb(238, 238, 238);
+    margin: 0 auto;
+    width: 1210px;
+    height: 62px;
+}
+
+.search-box {
+    text-align: center;
+    margin: 0 auto;
+    height: 20px; 
     
+}
+
+.content-2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 1210px;
+    height: 76px; 
+
+}
+
+.boxs {
+    text-align: center;
+    margin: 0 auto;
+    width: 1210px;
+    height: 76px;
+}
+
+.box1 {
+    background-color: rgb(126, 229, 218);
+    width: 403px;
+    height: 76px;
+    float: left;
+}
+
+.box2 {
+    background-color: rgb(112, 204, 194);
+    text-align: center;
+    width: 403px;
+    height: 76px;
+    float: left;
+}
+
+.box3 {
+    background-color: rgb(98, 179, 170);
+    text-align: center;
+    width: 403px;
+    height: 76px;
+    float: left;
 }
