@@ -1,6 +1,31 @@
+/* body start */
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin: 8px;
+}
+
+/* nav start */
+
+nav {
+    display: block;
+    margin: auto;
+  
+}
+
 img {
     display: block;
-    margin: auto;   
+    margin: auto; 
+    width: 351px; 
+    height: 113px; 
+}
+
+/* section cont start */
+
+input {
+    margin: 0 auto;
+
 }
 
 #small {
@@ -15,28 +40,38 @@ span {
     font-size: medium;
 }
 
-.sb-border {
-    text-align: center;
-    margin: 0 auto;
-    width: 1210px;
-    height: 62px;
-
+.container-b {
+    display: block;
+    text-align: -webkit-center;
+    
 }
 
-.container {
-    margin: auto;
-    width: 1210px;
-    height: 140px;
+.container-t {
+    border-color: grey;
+    font-variant: normal;
+    margin: 0  auto; 
+ 
 }
+
+#container {
+    display: table;
+    text-align: start;
+    width: 1710px;
+    height: 144px;
+
+    
+}
+
+/* cont start */
 
 .content-1 {
     background-color: rgb(238, 238, 238);
+    text-align: center;
     margin: 0 auto;
-    width: 1210px;
-    height: 62px;
+
 }
 
-.search-box {
+.search-text {
     text-align: center;
     margin: 0 auto;
     height: 20px; 
@@ -44,39 +79,51 @@ span {
 }
 
 .content-2 {
-    text-align: center;
-    margin: 0 auto;
-    width: 1210px;
-    height: 76px; 
+    background-color: black;
+    margin: 2px auto;
+    
+} 
 
+.text-p {
+    text-align: center;
+    margin: 10px;
+    
 }
 
-.boxs {
-    text-align: center;
-    margin: 0 auto;
-    width: 1210px;
-    height: 76px;
-}
+/* boxs start */
 
 .box1 {
     background-color: rgb(126, 229, 218);
-    width: 403px;
-    height: 76px;
+    text-align: center;
+    width: 37%;
+    height: 78px;
     float: left;
+    
 }
 
 .box2 {
     background-color: rgb(112, 204, 194);
     text-align: center;
-    width: 403px;
-    height: 76px;
+    width: 19.35%;
+    height: 78px;
     float: left;
+    margin: 0 2px;
+  
 }
 
 .box3 {
     background-color: rgb(98, 179, 170);
     text-align: center;
-    width: 403px;
-    height: 76px;
+    width: 43.40%;
+    height: 78px;
     float: left;
 }
+
+.copytext {
+    border-right-color: black;
+    text-align: center;
+    margin: auto;
+
+}
+
+/* body finish */
